@@ -60,7 +60,7 @@ body {
     background-color: var(--background-color);
 }
 
-header { 
+.header { 
   display:grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 4px 12px;

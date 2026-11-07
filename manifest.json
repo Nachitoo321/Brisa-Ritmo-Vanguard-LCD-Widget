@@ -10,6 +10,10 @@
   "required_plugins": [
     "widgetbuilder.mediadataprovider:Media:1.0"
   ],
+  "permissions": [
+    { "type": "url", "domain": "geocoding-api.open-meteo.com" },
+    { "type": "url", "domain": "api.open-meteo.com" }
+  ],
   "os": [
     {
       "platform": "windows"
